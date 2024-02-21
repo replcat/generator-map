@@ -1,0 +1,16 @@
+{
+  "lineWidth": 200,
+  "typescript": {
+    "semiColons": "asi"
+  },
+  "includes": [
+    "**/*.{ts,js,json}"
+  ],
+  "excludes": [
+    "node_modules"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/json-0.19.1.wasm",
+    "https://plugins.dprint.dev/typescript-0.89.1.wasm"
+  ]
+}
